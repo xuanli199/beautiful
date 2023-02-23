@@ -1,0 +1,63 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  width: 90vmin;
+  height: 90vmin;
+  max-width: 720px;
+  max-height: 720px;
+  overflow: hidden;
+  background-image: url('./img/slideventura.jpg');
+  background-size: auto 100%;
+  background-position-y: center;
+}
+
+#text {
+  display: none;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+#share {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#share > iframe:first-child{
+  margin-right: 5px;
+}
+
+#credits {
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 12px;
+  width: 100%;
+}
+
+#credits a {
+  color: #fff;
+}
