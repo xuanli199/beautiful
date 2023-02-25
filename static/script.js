@@ -19,9 +19,9 @@ var ACE = (function() {
 
   let audio = new Audio('./static/js/slideventura.mp3');
   audio.loop = true;
-  audio.volume = 0.6;
+  audio.volume = 1;
   let audio1 = new Audio('./static/js/music.mp3');
-  audio1.volume = 0.4;
+  audio1.volume = 0.3;
 
   var $text = document.getElementById('text');
   var currentPosition = 0;
